@@ -71,7 +71,7 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 46px;
-    gap: 30px;
+
     margin-right: 16px;
   }
   &__item {
@@ -146,7 +146,7 @@
     font-style: normal;
     font-size: 12px;
     line-height: 1.86;
-
+    text-decoration: none;
     color: #d41443;
     transition-property: font-size;
     transition-duration: 500ms;

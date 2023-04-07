@@ -10,7 +10,7 @@ ul {
   width: 100%;
 }
 .section {
-  padding: 60px 20px;
+  padding: 0 20px 120px;
 }
 .list {
   list-style: none;
@@ -202,7 +202,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  padding-top: 32px;
+  padding-top: 60px;
   @media screen and (max-width: 768px) {
     flex-direction: column;
     padding-top: 60px;
@@ -249,5 +249,9 @@ ul {
   &__franchise:hover,
   &__franchise:focus {
     background-color: rgba(255, 165, 186, 1);
+  }
+  &__svg {
+    fill: white;
+    color: #c2e297;
   }
 }
