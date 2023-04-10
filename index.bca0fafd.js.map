@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAASA,YAAYC,GACnBC,SAASC,eAAeF,GAAIG,UAAUC,OAAO,6B","sources":["src/js/products.js"],"sourcesContent":["function showOverlay(id) {\n  document.getElementById(id).classList.toggle(\"show-products__description\");\n}\n"],"names":["showOverlay","id","document","getElementById","classList","toggle"],"version":3,"file":"index.bca0fafd.js.map"}
