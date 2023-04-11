@@ -1,0 +1,2 @@
+!function(){var o={openModalBtn:document.querySelector(".buy-modal-button[data-modal-open]"),closeModalBtn:document.querySelector(".buy-modal-button[data-modal-close]"),modal:document.querySelector(".buy-modal[data-modal]")};function e(){o.modal.classList.toggle("buy-modal-is-hidden")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e)}();
+//# sourceMappingURL=index.6643d323.js.map
