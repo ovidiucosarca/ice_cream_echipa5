@@ -88,3 +88,14 @@
     width: 254px;   
 }
   }
+  .menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  transform: translateX(100%);
+}
+.menu-container.is-open {
+      transform: translateX(0);
+    }
+}
